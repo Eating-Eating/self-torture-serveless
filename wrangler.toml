@@ -1,0 +1,12 @@
+name = "self-torture-1"
+type = "webpack"
+zone_id = ""
+account_id = "fb3e32790992117d0465625827b6c15d"
+route = ""
+workers_dev = true
+compatibility_date = "2021-11-14"
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
